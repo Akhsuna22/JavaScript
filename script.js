@@ -302,7 +302,6 @@ for (val of items){
     i++;
 }
 
-*/
 let items = [200, 90, 110, 400, 50];
 for (let i= 0; i< items.length; i++){
     let offer = items[i]/ 10;
@@ -310,3 +309,9 @@ for (let i= 0; i< items.length; i++){
     items[i]= items[i] - offer;
 }
 console.log ("New offer price:",items);
+
+*/
+let marvelheroes = ["ironman", "thor", "spiderman"];
+let dcheroes = ["Shaktiman", "superman"];
+    let heroes = marvelheroes.concat(dcheroes);
+    console.log(heroes);
