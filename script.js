@@ -310,8 +310,12 @@ for (let i= 0; i< items.length; i++){
 }
 console.log ("New offer price:",items);
 
-*/
+
 let marvelheroes = ["ironman", "thor", "spiderman"];
 let dcheroes = ["Shaktiman", "superman"];
     let heroes = marvelheroes.concat(dcheroes);
     console.log(heroes);
+*/
+
+let marks = [89, 91, 200, 39, 40];
+console.log (marks);
