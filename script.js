@@ -1,4 +1,4 @@
-/* 
+/*
  const student = {
     fullName: "TonyStarks",
     age: 24,
@@ -310,12 +310,43 @@ for (let i= 0; i< items.length; i++){
 }
 console.log ("New offer price:",items);
 
-
 let marvelheroes = ["ironman", "thor", "spiderman"];
 let dcheroes = ["Shaktiman", "superman"];
     let heroes = marvelheroes.concat(dcheroes);
     console.log(heroes);
-*/
 
 let marks = [89, 91, 200, 39, 40];
 console.log (marks);
+
+//Using array methods
+let companies = ["Bloomberg", "Microsoft", "Uber","Google", "IBM", "Netflix"];
+console.log(companies);
+//Remove first company
+//companies.splice(0, 1);
+//Remove Uber and add Ola at its place
+companies.splice(2, 1, "Ola");
+//add Amazon at the end
+companies.push("Amazon");
+
+
+//functions
+function functionName(){
+    //do some work
+}
+   functionName(); //Function Call 
+
+function sum(x, y) { //functions
+ console.log(x+y);
+}
+ sum(4, 6);  //function call
+
+*/  
+
+function sum(x,y){
+    s = x+y;
+    console.log("before return");
+    return s;
+    console.log("after return");
+}
+ let val = sum (4, 5);
+ console.log(val);
